@@ -1,0 +1,40 @@
+:root {
+--gp-font--outfit: "Outfit";
+--gp-font--be-vietnam-pro: "Be Vietnam Pro";
+}
+
+@font-face {
+	font-display: auto;
+	font-family: "Outfit";
+	font-style: normal;
+	font-weight: 700;
+	src: url('https://wordpress-1253890-5354658.cloudwaysapps.com/wp-content/uploads/generatepress/fonts/outfit/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyC4S-EiAou6Y.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Be Vietnam Pro";
+	font-style: normal;
+	font-weight: 400;
+	src: url('https://wordpress-1253890-5354658.cloudwaysapps.com/wp-content/uploads/generatepress/fonts/be-vietnam-pro/QdVPSTAyLFyeg_IDWvOJmVES_Hw3BXo.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Be Vietnam Pro";
+	font-style: normal;
+	font-weight: 500;
+	src: url('https://wordpress-1253890-5354658.cloudwaysapps.com/wp-content/uploads/generatepress/fonts/be-vietnam-pro/QdVMSTAyLFyeg_IDWvOJmVES_HTEJm81Rb0.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Be Vietnam Pro";
+	font-style: normal;
+	font-weight: 600;
+	src: url('https://wordpress-1253890-5354658.cloudwaysapps.com/wp-content/uploads/generatepress/fonts/be-vietnam-pro/QdVMSTAyLFyeg_IDWvOJmVES_HToIW81Rb0.woff2') format('woff2');
+}
+@font-face {
+	font-display: auto;
+	font-family: "Be Vietnam Pro";
+	font-style: normal;
+	font-weight: 700;
+	src: url('https://wordpress-1253890-5354658.cloudwaysapps.com/wp-content/uploads/generatepress/fonts/be-vietnam-pro/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG81Rb0.woff2') format('woff2');
+}
