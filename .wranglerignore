@@ -1,5 +1,7 @@
 # Git files
+.git
 .git/
+.git/**
 .gitignore
 
 # Development files
