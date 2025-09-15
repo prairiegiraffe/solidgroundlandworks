@@ -3,11 +3,11 @@ export async function onRequestPost(context) {
     const { request } = context;
     const formData = await request.formData();
 
-    // Extract form fields
-    const firstName = formData.get('first-name');
-    const lastName = formData.get('last-name');
-    const email = formData.get('email');
-    const message = formData.get('message');
+    // Extract form fields - handle both old Formidable names and new names
+    const firstName = formData.get('first-name') || formData.get('item_meta[1]');
+    const lastName = formData.get('last-name') || formData.get('item_meta[2]');
+    const email = formData.get('email') || formData.get('item_meta[3]');
+    const message = formData.get('message') || formData.get('item_meta[5]');
 
     // Create email content
     const emailContent = `
